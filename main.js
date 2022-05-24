@@ -81,7 +81,6 @@ loiChao.onclick = function () {
                   xét number1 % 2 = 0 --> count++
                   xét number2 % 2 = 0 --> count++
                   xét number3 % 2 = 0 --> count++
-                  tính số lẻ: soLe = 3 - count
         output: count và soLe
 
 */
