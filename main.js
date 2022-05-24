@@ -102,25 +102,25 @@ demSo.onclick = function () {
 
     if (((number2 % 2) === 0)&&(number2 != 0)) {
         count++;
-        soChan += '  ' + number2;
+        soChan += ', ' + number2;
     }else if(number2 != 0){
         count1++;
-        soLe += '  ' + number2;
+        soLe += ', ' + number2;
     }
 
     if (((number3 % 2) === 0) && (number3 != 0)) {
         count++;
-        soChan += '  ' + number3;
+        soChan += ', ' + number3;
     }else if(number3 != 0){
         count1++;
-        soLe += '  ' + number3;
+        soLe += ', ' + number3;
     }else {
         count = 'Không hợp lệ';
         count1 = 'Không hợp lệ';
         soChan = 'Không hợp lệ';
         soLe = 'Không hợp lệ';
     }
-    document.getElementById('ketQua3').innerHTML = 'Tổng số chẵn: ' + count + ' (các số chẵn: ' + soChan + ')' + ', ' + 'Tổng số lẻ: ' + count1 +  ' (các số lẻ: ' + soLe + ')';
+    document.getElementById('ketQua3').innerHTML = 'Tổng số chẵn: ' + count + ' (các số chẵn: ' + soChan + ')' + '<br>' + 'Tổng số lẻ: ' + count1 +  ' (các số lẻ: ' + soLe + ')';
 }
 
 /*
